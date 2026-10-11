@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-inter: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+html,
+body {
+  background: #fbfafe;
+  color: #1f1636;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Hide scrollbars inside phone frames but keep scrolling */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* The deep-purple hero that curves into the light body */
+.hero-curve {
+  border-bottom-left-radius: 28px;
+  border-bottom-right-radius: 28px;
+}
+
+/* Signature stroke — a hand-drawn feel without an image */
+.signature-stroke {
+  font-family: "Brush Script MT", "Segoe Script", cursive;
+  font-style: italic;
+}
